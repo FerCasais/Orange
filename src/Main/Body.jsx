@@ -5,7 +5,7 @@ import Logo3 from "../assets/Logo3.png";
 
 
 
-const Main = () => {
+const Body = () => {
   return (
     <>
     <Container>
@@ -22,7 +22,7 @@ const Main = () => {
 
       <Container fluid="md" className="main">
         <Row>
-          <Col md={8}>
+          <Col md={6}>
             <h2 >Descripción</h2>
             Inicio 1. software administrativo y de facturación para empresas.
             gestiona tu punto de venta desde cualquier lugar y dispositivo.
@@ -141,4 +141,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Body;

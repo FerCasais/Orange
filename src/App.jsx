@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Nosotros from "./Nosotros/Nosotros";
@@ -7,49 +7,33 @@ import VideoTour from "./VideoTour/VideoTour";
 import PreguntasFrecuentes from "./PreguntasFrecuentes/PreguntasFrecuentes";
 import Menu from "./Menu/Menu";
 import Header from "./Header/Header";
-import Main from "./Main/Main";
+import Body from "./Main/Body";
 import Caracteristicas from "./Caracteristicas/Caracteristicas";
 import Footer from "./Footer/Footer";
 
-
-
-
-
 function App() {
-
-
-  return ( 
+  return (
     <>
+      <BrowserRouter>
+        <Header />
 
- 
- 
-    
-    <BrowserRouter>
-    
-    <Header/>
-   
-    <Menu/>
+        <Menu />
 
-    <Routes>
-      <Route path="/" element={  <Main/>}  />
-      <Route path="/nosotros" element={ <Nosotros/>}  />
-      <Route path="/planes" element={ <Planes/>}  />
-      <Route path="/caracteristicas" element={ <Caracteristicas/>}  />
-      <Route path="/videoTour" element={ <VideoTour/>}  />
-      <Route path="/preguntasFrecuentes" element={ <PreguntasFrecuentes/>}  />
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/planes" element={<Planes />} />
+          <Route path="/caracteristicas" element={<Caracteristicas />} />
+          <Route path="/videoTour" element={<VideoTour />} />
+          <Route
+            path="/preguntasFrecuentes"
+            element={<PreguntasFrecuentes />}
+          />
 
-      <Route path="*" element={<Navigate to = "/" />} />
-   </Routes>
-    
-   
- 
-     
-      
-   
-</BrowserRouter>
-<Footer/>
-
- 
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }

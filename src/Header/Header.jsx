@@ -7,16 +7,16 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Container  >
-      <Row>
-        <Col>
-   <NavLink  to="/" >   <img src= {Logo} className="logo" /> </NavLink>
+    <Container fluid>
+    <Row>
+      <Col> <NavLink  to="/" >   <img src= {Logo} className="logo" /> </NavLink>1 of 1</Col>
+    </Row>
+  </Container>
+   
+  
       
           
-    </Col>
-    </Row>
-    
-    </Container>
+  
   )
 }
 
