@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Container fluid>
     <Row>
-      <Col> <NavLink  to="/" >   <img src= {Logo} className="logo" /> </NavLink>1 of 1</Col>
+      <Col> <NavLink  to="/" >   <img src= {Logo} className="logo" /> </NavLink></Col>
     </Row>
   </Container>
    
