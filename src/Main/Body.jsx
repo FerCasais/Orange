@@ -22,7 +22,7 @@ const Body = () => {
 
       <Container fluid="md" className="main">
         <Row>
-          <Col md={6}>
+          <Col md={6} className="descripcion">
             <h2 >Descripción</h2>
             Inicio 1. software administrativo y de facturación para empresas.
             gestiona tu punto de venta desde cualquier lugar y dispositivo.

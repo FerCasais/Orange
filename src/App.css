@@ -50,6 +50,7 @@
   justify-content: center;
   margin-top: 10%;
   margin-left: 5%;
+  max-width: 80%;
 }
 
 .nosotros {
@@ -138,6 +139,14 @@
 .footer {
   color: white;
   margin-top: 10%;
+}
+
+.descripcion {
+  max-width: 80%;
+}
+
+.logo {
+  width: 100%;
 }
 
 
