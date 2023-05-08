@@ -1,20 +1,16 @@
-import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
 import "./App.css";
-
 import Nosotros from "./Nosotros/Nosotros";
 import Planes from "./Planes/Planes";
 import VideoTour from "./VideoTour/VideoTour";
 import PreguntasFrecuentes from "./PreguntasFrecuentes/PreguntasFrecuentes";
-import React from "react";
 import Menu from "./Menu/Menu";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Caracteristicas from "./Caracteristicas/Caracteristicas";
 import Footer from "./Footer/Footer";
-import ResponsiveHook from "./ResponsiveHook.jsx/ResponsiveHook";
+
 
 
 

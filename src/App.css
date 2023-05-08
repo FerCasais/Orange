@@ -3,7 +3,7 @@
   padding: 2rem;
   text-align: center;
   background-color: rgb(209, 115, 53);
-  height: 400vh;
+
 }
 
 .logo:hover {
@@ -76,7 +76,7 @@
   justify-content: center;
  
   color: orangered;
-  width: 70%;
+  width: 100%;
   animation: fotosLanding1 8s ease-in-out;
 }
 
@@ -117,6 +117,7 @@
   display: flex;
   justify-content: center;
   margin-top: 2%;
+  margin-bottom: 10%;
 }
 
 .card2 {
@@ -136,3 +137,5 @@
   color: white;
   margin-top: 10%;
 }
+
+

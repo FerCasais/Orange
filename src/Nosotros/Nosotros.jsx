@@ -1,7 +1,4 @@
-import React from 'react'
-import Col from 'react-bootstrap/esm/Col'
-import Container from 'react-bootstrap/esm/Container'
-import Row from 'react-bootstrap/esm/Row'
+import {Row, Col, Container } from "react-bootstrap";
 import Logo3 from "../assets/Logo3.png";
 
 const Nosotros = () => {

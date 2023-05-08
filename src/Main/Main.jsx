@@ -1,14 +1,9 @@
-import React from "react";
 import ReactPlayer from "react-player";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import {Row, Col, Container, Card } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import Logo3 from "../assets/Logo3.png";
-import "animate.css";
-import Spline from "@splinetool/react-spline";
+
+
 
 const Main = () => {
   return (
