@@ -1,0 +1,138 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(209, 115, 53);
+  height: 400vh;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.welcome {
+  font-size: 150%;
+}
+
+.spline {
+  background-color: brown;
+  height: 500px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.nosotros {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  color: white;
+  animation: fotosLanding1 8s ease-in-out;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+ 
+  color: orangered;
+  width: 70%;
+  animation: fotosLanding1 8s ease-in-out;
+}
+
+@keyframes fotosLanding1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo3 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  
+    animation: fotosLanding 6s ease-in-out;
+  }
+  
+  @keyframes fotosLanding {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ 
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.caracteristicas {
+  background-color: white;
+  color: orangered;
+  margin-top: 5%;
+}
+
+.footer {
+  color: white;
+  margin-top: 10%;
+}
