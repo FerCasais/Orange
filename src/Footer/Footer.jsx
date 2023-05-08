@@ -5,13 +5,13 @@ const Footer = () => {
     <>
        <Container>
     <Row>
-      <Col>
-    <div className='footer'><p> Instagram: Naranja Erp ( https://www.instagram.com/naranjaerp/?hl=es ) 
+      <Col className='footer'>
+ Instagram: Naranja Erp ( https://www.instagram.com/naranjaerp/?hl=es ) 
     facebook: Naranja Erp ( https://www.facebook.com/Naranja-ERP-110326100335792/ )
-    youtube: Naranja Erp ( https://www.youtube.com/channel/UCbdgPmi_ZN2nUnl5WwdCOyw/featured )
+   
     Linkedin: Naranja Erp ( https://www.linkedin.com/company/naranja-erp/  ) 
-    6. boton de whatsapp</p>
-    </div>
+   boton de whatsapp
+   
     </Col>
     </Row>
   </Container>
