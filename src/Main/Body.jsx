@@ -56,7 +56,7 @@ const Body = () => {
             </p>
           </Col>
 
-          <Col md={4}>
+          <Col md={4} className='video'>
             {" "}
             <div className="video-container">
               <ReactPlayer

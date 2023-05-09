@@ -13,8 +13,7 @@ const Nosotros = () => {
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis amet asperiores nihil, repellendus aperiam quas alias rem doloremque dicta dolor fugiat sed fuga in aut quo accusamus? Neque, voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde? Accusamus porro cum quas, dignissimos earum magni voluptatibus quasi necessitatibus consequatur iste perspiciatis nesciunt sint illo repudiandae quis, assumenda illum.</p></div>
       <div className='nosotros'>
         <h4 className='mb-3'>Porque elegirnos</h4>
-      <p >LINK CANVA ​​https://www.canva.com/design/DAE93Moe_0Y/acN9qisqS89meyh0GOqztA/edit?utm_content=DAE93Moe_0Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
+      <p >
 ¿Qué beneficios puede traer un ERP a tu emprendimiento  ?
  
 Iniciemos definiendo un ERP ( Enterprise resource planning) cuyo significado es un “sistema de planificación de recursos empresariales” en donde vamos a integrar y automatizar los procesos de tu negocio, aumentando la productividad de tu empresa  
@@ -84,7 +83,7 @@ Si eres un emprendedor y valoras tu tiempo seguramente invertirás en este tipo 
 
 </p>
     </Col>
-    <Col><img src={Logo3} alt="" />
+    <Col><img src={Logo3} alt="" className="logo2"/>
     </Col>
     </Row></Container> </div>
     </Col>

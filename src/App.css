@@ -173,17 +173,24 @@
   @media only screen and (max-width: 580px) {
     .descripcion {
   font-size: x-small;
+  max-width: 80%;
     }}
 
     @media only screen and (max-width: 580px) {
       .caracteristicas {
     font-size:x-small;
+    max-width: 80%;
       }}
 
       @media only screen and (max-width: 580px) {
         .video-container {
       width: 80%;
         }}
+
+        @media only screen and (max-width: 580px) {
+          .video {
+        width: 80%;
+          }}
 
 
 
