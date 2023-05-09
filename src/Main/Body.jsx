@@ -20,16 +20,16 @@ const Body = () => {
         </Row>
       </Container>
 
-      <Container fluid="md" className="main">
-        <Row>
-          <Col md={6} className="descripcion">
+      <Container fluid="md" >
+        <Row className="row">
+          <Col  className="descripcion">
             <h2 >Descripción</h2>
             Inicio 1. software administrativo y de facturación para empresas.
             gestiona tu punto de venta desde cualquier lugar y dispositivo.
             BOTON ( ESCRIBENOS ) Naranja Pos factura de forma fácil e intuitiva
             ¡Consulta tus reportes y comprobantes en tiempo real! acceso seguro
             desde la nube
-            <p className="caracteristicas">
+           
               Características /* agrega iconos a cada una de las
               caracteristicas*/ sugeridos facturacion en la nube
               accede rápido a tu información desde el lugar donde estes con
@@ -52,10 +52,10 @@ const Body = () => {
               desde gerencia hasta colaboradores podrán ver los cursos que
               tenemos disponibles BOTON ( APRENDE MAS) 4. testimonios. 5.
               reconocimientos Apps.co Spinit
-            </p>
-          </Col>
+           
+       
 
-          <Col md={4} className='video'>
+         
             {" "}
             <div className="video-container">
               <ReactPlayer
