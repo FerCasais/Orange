@@ -7,8 +7,8 @@ const Planes = () => {
     <Row>
       <Col>
      
-    <div className='nosotros'><h2>Planes</h2>
-    <img src={Logo2} alt="" /></div>
+    <h2 className='nosotros'>Planes</h2>
+    <img src={Logo2} alt="" className='logo2' />
     </Col>
     </Row>
   </Container>

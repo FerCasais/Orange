@@ -3,6 +3,7 @@
   padding: 2rem;
   text-align: center;
   background-color: rgb(209, 115, 53);
+  text-justify: auto;
 
 }
 
@@ -57,6 +58,7 @@
   color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-justify: auto;
 }
 
 .menu {
@@ -64,6 +66,7 @@
   justify-content: space-between;
   color: white;
   font-size: smaller;
+  text-justify: auto;
 }
 
 .main {
@@ -72,11 +75,13 @@
   color: white;
   animation: fotosLanding1 8s ease-in-out;
   max-width: 80%;
+  text-justify: auto;
 }
 
 .main2 {
   display: flex;
   justify-content: center;
+  text-justify: auto;
  
   color: orangered;
   width: 100%;
@@ -122,6 +127,7 @@
   margin-top: 2%;
   margin-bottom: 10%;
   width: 100%;
+  text-justify: auto;
 }
 
 .card2 {
@@ -130,25 +136,54 @@
   margin-top: 2%;
   margin-bottom: 10%;
   width: 100%;
+  text-justify: auto;
 }
 
 .caracteristicas {
   background-color: white;
   color: orangered;
   margin-top: 5%;
+  text-justify: auto;
 }
 
 .footer {
   color: white;
   margin-top: 10%;
+
 }
 
 .descripcion {
   max-width: 80%;
+  text-justify: auto;
 }
 
 .logo {
   width: 100%;
 }
+
+.logo2 {
+  max-width: 80%;
+} 
+
+@media only screen and (max-width: 580px) {
+  .logo2 {
+ width: 70%;
+  }}
+
+  @media only screen and (max-width: 580px) {
+    .descripcion {
+  font-size: x-small;
+    }}
+
+    @media only screen and (max-width: 580px) {
+      .caracteristicas {
+    font-size:x-small;
+      }}
+
+      @media only screen and (max-width: 580px) {
+        .video-container {
+      width: 80%;
+        }}
+
 
 
