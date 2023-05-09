@@ -31,8 +31,7 @@ const Body = () => {
             desde la nube
             <p className="caracteristicas">
               Características /* agrega iconos a cada una de las
-              caracteristicas*/ sugeridos
-              https://fontawesome.com/icons/cloud?s=light facturacion en la nube
+              caracteristicas*/ sugeridos facturacion en la nube
               accede rápido a tu información desde el lugar donde estes con
               naranja erp y aprovecha las ventajas de usar tu software en la
               nube Clientes/proveedores ten siempre a la mano tus bases de datos

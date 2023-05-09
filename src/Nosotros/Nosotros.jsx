@@ -49,7 +49,7 @@ Emprendedora digital @naranjaerp
 </p>
 <Container>
   <Row>
-    <Col><h4 className='mb-3 mt-5 '>¿Qué es la nube ?</h4><p className='w-90'>
+    <Col className="nube"><h4 className='mb-3 mt-5 '>¿Qué es la nube ?</h4><p className='w-90'>
 
 Siempre hablamos de la tecnología y usamos herramientas como intagram , Facebook pero y tu contabilidad ?, 
 
@@ -83,7 +83,7 @@ Si eres un emprendedor y valoras tu tiempo seguramente invertirás en este tipo 
 
 </p>
     </Col>
-    <Col><img src={Logo3} alt="" className="logo2"/>
+    <Col><img src={Logo3} alt="" className="logo3"/>
     </Col>
     </Row></Container> </div>
     </Col>
