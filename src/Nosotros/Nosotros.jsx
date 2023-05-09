@@ -6,7 +6,7 @@ const Nosotros = () => {
 
   <Container>
     <Row>
-      <Col className="mb-5 bg-light"><h3 >Nosotros</h3>
+      <Col className="mb-5 mt-5 bg-light shadow-lg p-3 mb-5 bg-body-tertiary rounded"><h3 >Nosotros</h3>
     <h6>Quienes somos</h6>
     <p >Iniciemos definiendo un ERP ( Enterprise resource planning) cuyo significado es un “sistema de planificación de recursos empresariales” en donde vamos a integrar y automatizar los procesos de tu negocio, aumentando la productividad de tu empresa  
 
@@ -21,7 +21,7 @@ Cuando no se cuenta con un ERP se abre paso a la ineficiencia operativa, el retr
 
   <Container>
     <Row>
-      <Col><h4 className="mb-4 bg-light w-60">Porque elegirnos</h4>
+      <Col><h4 className="mb-4  bg-light w-60 shadow-lg p-3 mb-5 bg-body-tertiary rounded">Porque elegirnos</h4>
       </Col>
     </Row>
   </Container>
@@ -29,8 +29,10 @@ Cuando no se cuenta con un ERP se abre paso a la ineficiencia operativa, el retr
 
   <Container>
     <Row>
-      <Col><Card>
-      <Card.Body><h6>¿Qué beneficios puede traer un ERP a tu emprendimiento  ?</h6><p className="text-left">
+      <Col>
+      <Card className="mt-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <Card.Body><h6>¿Qué beneficios puede traer un ERP a tu emprendimiento  ?</h6>
+      <p className="texto">
  
 
 
@@ -53,8 +55,9 @@ A la hora de elegir tu ERP, la recomendación es escoger un software en la nube 
 
       
       <Col>
-      <Card>
-      <Card.Body><h6 >¿Qué es la nube ?</h6>Siempre hablamos de la tecnología y usamos herramientas como intagram , Facebook pero y tu contabilidad ?, 
+      <Card className="mt-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <Card.Body><h6 >¿Qué es la nube ?</h6>
+      <p className="texto"> Siempre hablamos de la tecnología y usamos herramientas como intagram , Facebook pero y tu contabilidad ?, 
 
 Empezamos definiendo a la nube Conjunto de recursos computacionales de gran escala conectados a través de una red computacional que se pueden consumir a gran escala , de tal manera que empresas como netflix  ,youtube , naranja erp puedan alojarse en la nube 
 Añadir que es la nube 
@@ -69,7 +72,7 @@ Vendes y vendes pero no ves el dinero , cual es tu realidad financiera?
 
 Sabemos la cotidianidad del empresario implica la toma de decisiones y entre mas acertadas sean, definirán el rumbo de tu empresa con un impacto positivo , por eso es vital que no las tomes a ciegas o con la información del periodo pasado ya que nuestro entorno y el comportamiento de nuestro negocio va evolucionando diariamente.
 Cuando no se cuenta con un ERP se abre paso a la ineficiencia operativa, el retrabajo, los procesos propensos a errores, incómodos, manuales Facturacion electrónica 
-Todos sabemos que el tiempo es dinero , Has pensado en el tiempo que incurres en procesos de mensajería , impresión y almacenamiento , sin hablar de los costos implicitos en estos procesos , Te gustaria optimizar tu tiempo y el de tus colaboradores 
+Todos sabemos que el tiempo es dinero , Has pensado en el tiempo que incurres en procesos de mensajería , impresión y almacenamiento , sin hablar de los costos implicitos en estos procesos , Te gustaria optimizar tu tiempo y el de tus colaboradores </p>
 
 
  </Card.Body>
@@ -81,7 +84,7 @@ Todos sabemos que el tiempo es dinero , Has pensado en el tiempo que incurres en
   <Container>
     <Row>
       <Col> 
-      <Card className={'mt-5'} style={{ width: '100%' }}>
+      <Card className={'mt-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded'} style={{ width: '100%' }}>
       <Card.Img variant="top" src={Logo} style={{ width: "20%" }} />
       <Card.Body>
         <Card.Title>Naranja ERP</Card.Title>

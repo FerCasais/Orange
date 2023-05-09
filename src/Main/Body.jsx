@@ -7,7 +7,7 @@ import Logo from "../assets/Logo.png";
 const Body = () => {
   return (
     <>
-      <Container>
+      <Container className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <Row>
           <Col className="logo3">
             <img src={Logo3} alt="" />{" "}
@@ -19,7 +19,7 @@ const Body = () => {
         <Row>
           <Col>
             {" "}
-            <Card style={{ width: "100%" }}>
+            <Card style={{ width: "100%" }} className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               <Card.Img variant="top" src={Logo} style={{ width: "20%" }} />
               <Card.Body>
                 <Card.Title>Descripción</Card.Title>
@@ -72,14 +72,15 @@ const Body = () => {
                     '<iframe width="853" height="480" src="https://www.youtube.com/embed/QoKrlqNOYZs" title="Testimonio clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
                   }
                 />{" "}
-                <img src={Logo} alt="" style={{ width: "40%" }} />{" "}
+                
               </div>
-              <Card.Body>
+              <Card.Body className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 <Card.Title>Testimonio Clientes</Card.Title>
                 <Card.Text></Card.Text>
               </Card.Body>
             </Card>
           </Col>
+          <Col><img src={Logo} alt="" style={{ width: "40%" }} />{" "}</Col>
         </Row>
       </Container>
 
@@ -87,43 +88,78 @@ const Body = () => {
         <Row>
           <Col>
             {" "}
-            <Card className="main2">
+            <Card className="main2 w-100 bg-secondary shadow-lg p-3 mb-5 bg-body-tertiary rounded" variant="outline-dark ">
               <h2>Naranja ERP es para ti</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus, excepturi ex deleniti asperiores consequuntur soluta!
-                Debitis optio minima nam harum dolorum quos quam dicta, nostrum
-                laborum et ipsam culpa error? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Doloribus, excepturi ex deleniti
-                asperiores consequuntur soluta! Debitis optio minima nam harum
-                dolorum quos quam dicta, nostrum laborum et ipsam culpa error?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+                            <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-warning" : "bg-secondary-subtle"
+                }
+                to="/planes"
+              >
+                {" "}
+                <h6 className="text-light ">PLANES</h6>
+              </NavLink>
             </Card>
           </Col>
           <Col>
             {" "}
-            <Card className="main2">
+            <Card className="main2 w-100 bg-secondary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               {" "}
               <h2>Ventajas</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <Button variant="outline-dark " ><p>CONTACTANOS
+               
+              </p>{" "}</Button>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+
+
+
+      <Container>
+    <Row>
+      <Col>
+      <Card className="mt-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <Card.Body><h6>¿Qué beneficios puede traer un ERP a tu emprendimiento  ?</h6>
+      <p className="texto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloribus, excepturi ex deleniti asperiores consequuntur soluta!
                 Debitis optio minima nam harum dolorum quos quam dicta, nostrum
                 laborum et ipsam culpa error? Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Doloribus, excepturi ex deleniti
                 asperiores consequuntur soluta! Debitis optio minima nam harum
                 dolorum quos quam dicta, nostrum laborum et ipsam culpa error?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>{" "}
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+                Lorem ipsun 
+
+ </p></Card.Body>
+    </Card>
+
+      </Col>
+
+
+      
+      <Col>
+      <Card className="mt-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <Card.Body><h6 >¿Qué es la nube ?</h6>
+      <p className="texto">  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, excepturi ex deleniti asperiores consequuntur soluta!
+                Debitis optio minima nam harum dolorum quos quam dicta, nostrum
+                laborum et ipsam culpa error? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Doloribus, excepturi ex deleniti
+                asperiores consequuntur soluta! Debitis optio minima nam harum
+                dolorum quos quam dicta, nostrum laborum et ipsam culpa error?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+
+ </Card.Body>
+    </Card>
+     </Col>
+    </Row>
+  </Container>
 
       <Container>
         <Row>
-          <Col>
+          <Col className="mt-3">
             {" "}
             <NavLink
               className={({ isActive }) =>

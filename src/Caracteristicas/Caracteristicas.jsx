@@ -2,14 +2,14 @@ import {Row, Col, Container } from "react-bootstrap";
 
 const Caracteristicas = () => {
   return (<>
-  <Container>
+  <Container className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
     <Row>
       <Col>
       
     <div className='nosotros'><h4>Características</h4></div>
     <div className='nosotros'>
         <h4 >Nuestro Expertise</h4>
-      <p >Administra, controla y factura desde cualquier lugar y dispositivo .Con  naranja erp software administrativo en la nube cuentas con las siguientes características :
+      <p className="texto">Administra, controla y factura desde cualquier lugar y dispositivo .Con  naranja erp software administrativo en la nube cuentas con las siguientes características :
 
 1.Facturación POS o punto de venta intuitiva : Actualiza y digitaliza tu empresa , toma el control de tus ventas de  una forma fácil e intuitiva visualizando las imágenes de tus productos , envía facturas por correo a tus clientes y reduce costos de impresión 
 2.Cuentas por pagar : Planifica con anticipación tus pagos a proveedores , utiliza nuestro calendario de recordación para organizar de forma ágil tu negocio y estar siempre al día con la información 
@@ -40,7 +40,7 @@ Importa tu listado de clientes, proveedores, y productos desde Excel.
 Capacitación personalizada.
 Acompañamiento y soporte en tiempo real con nuestros asesores.
 </p>
-<p>NARANJA ACADEMY
+<p className="texto">NARANJA ACADEMY
 En Naranja cuentas con contenidos pensados para que sigas formándote como emprendedor. Por ello, hemos creado Naranja Academy, una escuela digital en la que tanto tú, como tus colaboradores, encontrarán información de interés relacionada con el emprendimiento.
 Accede de forma gratuita a nuestra academia digital, y consulta nuestro Taller de herramientas digitales, orientado a que los emprendedores puedan poner en práctica sus habilidades, para mejorar significativamente la productividad y rentabilidad de su negocio.
 Naranja Academy es el complemento perfecto de Naranja Erp, ya que te permite afianzar y mejorar tus habilidades blandas, al tiempo que te sigues capacitando en temas como : ventas, marketing, y social media, entre otros temas.

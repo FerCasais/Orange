@@ -10,14 +10,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const Menu = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <Col>
+    
 
-  
-
-
-    <>
+    {/* <>
       {[false, ].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
@@ -104,13 +99,12 @@ const Menu = () => {
           </Container>
         </Navbar>
       ))}
-    </>
+    </> */}
 
-
-
-
-            <div className="menu">
-              <NavLink
+    <Container className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <Row>
+        <Col>
+        <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-warning" : "bg-secondary-subtle"
                 }
@@ -119,6 +113,9 @@ const Menu = () => {
                 {" "}
                 <h6 className="text-light">Nosotros</h6>
               </NavLink>
+                </Col>
+
+                <Col>
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-warning" : "bg-secondary-subtle"
@@ -127,7 +124,10 @@ const Menu = () => {
               >
                 {" "}
                 <h6 className="text-light">Características</h6>
-              </NavLink>
+              </NavLink> 
+              </Col>
+
+              <Col>
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-warning" : "bg-secondary-subtle"
@@ -137,7 +137,10 @@ const Menu = () => {
                 {" "}
                 <h6 className="text-light">Planes</h6>
               </NavLink>
-              <NavLink
+       </Col>
+       
+       <Col>
+          <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-warning" : "bg-secondary-subtle"
                 }
@@ -146,6 +149,10 @@ const Menu = () => {
                 {" "}
                 <h6 className="text-light">Video Tour</h6>
               </NavLink>
+               </Col>
+
+              <Col>
+
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-warning" : "bg-secondary-subtle"
@@ -155,10 +162,25 @@ const Menu = () => {
                 {" "}
                 <h6 className="text-light">Preguntas frecuentes</h6>
               </NavLink>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+               </Col>
+       
+        
+       
+        
+       
+        
+       
+      </Row>
+    </Container>
+
+
+
+
+          
+              
+            
+           
+      
     </>
   );
 };

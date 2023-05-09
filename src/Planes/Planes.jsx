@@ -3,7 +3,7 @@ import {Row, Col, Container } from "react-bootstrap";
 
 const Planes = () => {
   return (<>
-  <Container>
+  <Container className='shadow-lg p-3 mb-5 bg-body-tertiary rounded'>
     <Row>
       <Col>
      
